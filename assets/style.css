@@ -1,0 +1,24 @@
+:root {
+    --primary-alpha: hsl(193, 38%, 86%);
+    --primary-beta: hsl(150, 100%, 66%);
+    --neutral-alpha: hsl(217, 19%, 38%,);
+    --neutral-beta: hsl(217, 19%, 24%);
+    --neutral-gamma: hsl(218, 23%, 16%);
+}
+
+body {
+    background-color: var(--neutral-gamma);
+    font-size: 28px;
+}
+
+.card {
+    background-color: var(--primary-alpha);
+}
+
+.advice-btn {
+    background-color: var(--neutral-beta);
+}
+
+.advice-btn svg {
+    color: var(--primary-beta);
+}
