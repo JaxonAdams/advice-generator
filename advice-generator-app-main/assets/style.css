@@ -1,0 +1,32 @@
+:root {
+    --primary-alpha: hsl(193, 38%, 86%);
+    --primary-beta: hsl(150, 100%, 66%);
+    --neutral-alpha: hsl(217, 19%, 38%,);
+    --neutral-beta: hsl(217, 19%, 24%);
+    --neutral-gamma: hsl(218, 23%, 16%);
+}
+
+body {
+    background-color: var(--neutral-gamma);
+    font-size: 28px;
+    font-family: Manrope, Staatliches, Open-Sans;
+    font-weight: 200;
+}
+
+.card {
+    color: var(--primary-alpha);
+    background-color: var(--neutral-beta);
+}
+
+.advice-btn {
+    background-color: var(--primary-beta);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.advice-btn img {
+    background-color: var(--primary-beta);
+}
