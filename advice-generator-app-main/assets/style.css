@@ -12,6 +12,13 @@ body {
     font-family: Manrope, Staatliches, Open-Sans;
     font-weight: 200;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
 }
 
 .card-container {
@@ -58,4 +65,30 @@ body {
 
 .advice-btn img {
     background-color: var(--primary-beta);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .card-container {
+        align-items: center;
+        margin: 0 1rem;
+        padding: 0;
+    }
+    
+    .card {
+        max-width: 350px;
+        margin: 0 1rem;
+        align-self: center;
+    }
 }
