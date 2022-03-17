@@ -13,17 +13,19 @@
   <title>Advice Generator</title>
 </head>
 <body>
-  <div class="card" id="advice-card">
-    <div class="container advice-header-container">
-      <p class="advice-header">Advice <span class="advice-header advice-number"></span></p>
+  <div class="card-container">
+    <div class="card" id="advice-card">
+      <div class="container advice-header-container">
+        <p class="advice-header">Advice <span class="advice-header advice-number"></span></p>
+      </div>
+      <div class="container advice-body-container">
+        <p class="advice-body"></p>
+      </div>
+      <div class="divider"><img src="./images/pattern-divider-desktop.svg" alt="A divider"></div>
     </div>
-    <div class="container advice-body-container">
-      <p class="advice-body"></p>
-    </div>
-    <div class="divider"></div>
+    <button class="advice-btn" id="advice-btn"><img src="./images/icon-dice.svg" alt="A dice icon."></button>
   </div>
-  <button class="advice-btn" id="advice-btn"><img src="./images/icon-dice.svg" alt="A dice icon."></button>
-
+  
   <script src="./assets/script.js"></script>
 </body>
 </html>

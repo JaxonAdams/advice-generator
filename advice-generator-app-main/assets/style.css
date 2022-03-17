@@ -11,11 +11,32 @@ body {
     font-size: 28px;
     font-family: Manrope, Staatliches, Open-Sans;
     font-weight: 200;
+    overflow: hidden;
+}
+
+.card-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
     color: var(--primary-alpha);
     background-color: var(--neutral-beta);
+    border-radius: 20px;
+    padding: 1.5rem;
+    max-width: 500px;
+}
+
+.advice-header-container, .advice-body-container {
+    text-align: center;
+}
+
+.card .advice-header {
+    font-size: 1.5rem;
+    color: var(--primary-beta);
 }
 
 .advice-btn {
@@ -25,6 +46,14 @@ body {
     width: 50px;
     cursor: pointer;
     border: none;
+    position: relative;
+    bottom: 25px;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
 }
 
 .advice-btn img {
